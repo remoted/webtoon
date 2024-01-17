@@ -1,5 +1,6 @@
 # 실행 방법
-###본 Project 는 Gradle 기반에서 작동되었어요. H2 Database 를 사용하였고 해당하는 부분에 대해서
+### 
+본 Project 는 Gradle 기반에서 작동되었어요. H2 Database 를 사용하였고 해당하는 부분에 대해서
 application.properties 에서 In-memory 방식 혹은 Embedded 방식을 선택하여 가동하여 주세요
 
 * 자체적인 실행은 윈도우 기반의 IntelliJ 에서 bootRun 을 통하여 실행할 수 있어요
