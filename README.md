@@ -8,6 +8,10 @@ application.properties 에서 In-memory 방식 혹은 Embedded 방식을 선택�
 * 원래는 Spring Security 를 사용하는 도중이였는데 살짝 문제가 생겨서 배제시켰어요
 * Linux 를 사용하는 경우는 Bash 파일 내에서 jar 를 지정하고 Daemon 화 하여 실행할 수 있어요.
 
+###
+src/main/http/service.http 파일 내에서 http를 정의하여 Postman 을 사용하지 않고 가동할 수 있어요
+
+
 
 # 평가를 할 수 있는 API
 * 댓글은 필수 옵션이 아니에요
