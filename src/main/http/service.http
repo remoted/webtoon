@@ -1,0 +1,24 @@
+
+
+
+### 상위 좋아요 3개와 싫어요 3개를 통합한 API
+GET http://localhost:8080/evaluations/top-contents
+
+### 사용자별 로그 확인 API
+GET http://localhost:8080/search-history/1
+
+### 모든 Contents 조회
+GET http://localhost:8080/contents
+
+### Content 조회
+GET http://localhost:8080/contents/2
+
+###
+POST http://localhost:8080/evaluations
+Content-Type: application/json
+
+{
+  "comment": "Great episode!",
+  "userId": 1,
+  "contentId": 5
+}
